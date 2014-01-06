@@ -306,16 +306,19 @@ body {
 .contentpost {
 	padding: @rs*7.5 0;
 	.contentpost__logo {
-		position: absolute;
+		// position: absolute;
+		position: fixed;
 		top: 10px;
 		left: 10px;
-		width: 44px;
-		height: 44px;
+		// width: 44px;
+		// height: 44px;
 		z-index: 99;
-		font-size: @rs;
+		font-size: @rs + 4px;
 		color: @color-black;
 		font-family: @font-sans;
 		font-weight: 800;
+		border: solid 1px;
+		padding: 10px;
 		a:visited, a:focus, a:active {
 			color: @color-black;
 		}
