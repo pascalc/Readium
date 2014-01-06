@@ -383,10 +383,10 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 44px;
-  height: 44px;
+  font-size: 17px;
+  border: solid 1px;
+  padding: 5px;
   z-index: 99;
-  background-color: #111111;
 }
 .contentpost .contentpost__logo img {
   width: 22px;
