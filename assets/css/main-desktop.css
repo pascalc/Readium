@@ -151,6 +151,7 @@ body {
   position: absolute;
   bottom: 0;
   padding: 50px 10% 10%;
+  text-shadow: 1px 1px 85px #000;
 }
 .sidebar .sidebar__information .sidebar__information__title {
   font-size: 32px;
