@@ -697,3 +697,9 @@ body {
 .contentpost .contentpost__footer a:hover {
   color: #e97f02;
 }
+.fb-like {
+  height: 21px;
+  padding-left: 15px;
+  position: relative;
+  top: 3px;
+}
