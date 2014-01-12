@@ -24,6 +24,10 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
+        <!-- For facebook sharing -->
+        <meta property="og:title" content={{{title}}}>
+        <meta property="og:description" content={{excerpt characters="30"}}&hellip;>
+
         {{! Everything below outputs content of the the post which has been published }}
 
         <div class="contentpost__sidebar">
