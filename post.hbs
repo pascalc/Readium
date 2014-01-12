@@ -24,9 +24,9 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
-        <!-- For facebook sharing -->
+        <!-- For facebook sharing, moved to <head> by jQuery in custom.js -->
         <meta property="og:title" content="{{{title}}}">
-        <meta property="og:description" content="{{excerpt characters="30"}}&hellip;">
+        <meta property="og:description" content="{{excerpt characters='30'}}&hellip;">
 
         {{! Everything below outputs content of the the post which has been published }}
 
